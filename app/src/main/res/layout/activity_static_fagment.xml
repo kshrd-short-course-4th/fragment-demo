@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rathana.fragmentdemo2.StaticFagmentActivity">
+    <fragment
+        android:name="com.example.rathana.fragmentdemo2.fragment.ArticleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/articleFragment"
+        android:layout_weight="1"/>
+    <fragment
+        android:name="com.example.rathana.fragmentdemo2.fragment.ArticleDetailFragment"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/artcleDetailFragment"/>
+</LinearLayout>
